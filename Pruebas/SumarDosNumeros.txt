@@ -1,0 +1,9 @@
+SumarDosNumeros BEGIN{
+
+NUM primero=10;
+NUM segundo=5;
+NUM resul=primero/segundo;
+
+SEND(#El resultado es: #+resul);
+
+END}

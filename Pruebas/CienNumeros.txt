@@ -1,0 +1,11 @@
+CienNumeros BEGIN{
+
+NUM n;
+n=0;
+
+WHEN(n<101){
+SEND(n);
+n=n+1;
+SWHEN}
+
+END}
